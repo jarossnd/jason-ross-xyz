@@ -4,12 +4,12 @@
 module.exports = {
   siteMetadata: {
     title: `jason-ross-xyz`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.jasonross.xyz`
   },
   plugins: ["gatsby-plugin-styled-components", {
     resolve: 'gatsby-plugin-google-analytics',
     options: {
-      "trackingId": ""
+      "trackingId": "NULL"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
